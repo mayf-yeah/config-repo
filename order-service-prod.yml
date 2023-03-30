@@ -1,5 +1,6 @@
-server:
-  port: 9091
+# 测试 bus 总线的时候有两个 order-service 请求这个配置文件，所以不能在这里配置port
+# server:
+#   port: 9091
 
 spring:
   application:
